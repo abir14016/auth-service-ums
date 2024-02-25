@@ -4,8 +4,8 @@ import { IAcademicFaculty } from '../academicFaculty/academicFaculty.interfaces'
 
 export type UserName = {
   firstName: string;
-  lastName: string;
   middleName: string;
+  lastName: string;
 };
 
 export type IFaculty = {

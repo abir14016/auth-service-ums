@@ -24,3 +24,7 @@ export type UserModel = {
     savedPassword: string
   ): Promise<boolean>;
 } & Model<IUser>;
+
+export type IUserFilters = {
+  searchTerm?: string;
+};

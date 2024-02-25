@@ -17,16 +17,31 @@ export const findLastStudentId = async (): Promise<string | undefined> => {
   return lastStudent?.id ? lastStudent.id.substring(4) : undefined;
 };
 
+// export const generateStudentId = async (
+//   academicSemester: IAcademicSemester
+// ): Promise<string> => {
+//   const currentId =
+//     (await findLastStudentId()) || (0).toString().padStart(5, '0'); //00000
+//   //increment by 1
+//   let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
+//   //20 25
+//   incrementedId = `${academicSemester.year}${academicSemester.code
+//     }${incrementedId}`;
+
+//   return incrementedId;
+// };
+
 export const generateStudentId = async (
   academicSemester: IAcademicSemester
 ): Promise<string> => {
   const currentId =
-    (await findLastStudentId()) || (0).toString().padStart(5, '0'); //00000
+    (await findLastStudentId()) || (0).toString().padStart(5, '0');
+
   //increment by 1
   let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
-  //20 25
-  incrementedId = `${academicSemester.year}${academicSemester.code
-    }${incrementedId}`;
+  incrementedId = `${academicSemester.year.toString().substring(2)}${
+    academicSemester.code
+  }${incrementedId}`;
 
   return incrementedId;
 };

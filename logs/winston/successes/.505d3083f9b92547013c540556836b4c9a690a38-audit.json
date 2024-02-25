@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\.505d3083f9b92547013c540556836b4c9a690a38-audit.json",
+    "files": [
+        {
+            "date": 1707218121966,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-06-02-17-success.log",
+            "hash": "266dd8ae635b9f7ded703058530e7515b94cb0449de34670326e96eca8ba81ab"
+        },
+        {
+            "date": 1707226232675,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-06-02-19-success.log",
+            "hash": "a284af28c02e4e4bfa1256716b3c2c99f22a40b8e802b0d9d093c1a8ebbc8866"
+        },
+        {
+            "date": 1707303918164,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-07-02-17-success.log",
+            "hash": "a6e704a39ec4de96644287c07f1f7615ece31086734d2e47a801af589dee7a50"
+        },
+        {
+            "date": 1707837110868,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-13-02-21-success.log",
+            "hash": "64edf32533a86078ced29c68aba7f7f0a1d4b05ae5c07b910973b10def3db683"
+        },
+        {
+            "date": 1707844241102,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-13-02-23-success.log",
+            "hash": "cb7d91806d3b149946ddcd38488c15a3bfd59d16d8ad59045d9de86f4cfffecf"
+        },
+        {
+            "date": 1707886645043,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-14-02-10-success.log",
+            "hash": "dad72e922817c3fd21290c2e5989c86f7ec51390a15e2ffcfdeaa1eee269847a"
+        },
+        {
+            "date": 1707892003152,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-14-02-12-success.log",
+            "hash": "813eda9d5e2ac547cbac81193bfd9224254e3d3999e90b12a597da5bb1f5af35"
+        },
+        {
+            "date": 1707974924201,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-15-02-11-success.log",
+            "hash": "a6a558bde80afb1a08da8b4ffc9ba31596faec65caa483e10137cdb069cb65e6"
+        },
+        {
+            "date": 1707978166540,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-15-02-12-success.log",
+            "hash": "6e39faeeb1613992f403020716aff1acc102e07fd4eabe850810361415cee226"
+        },
+        {
+            "date": 1708109142236,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-17-02-00-success.log",
+            "hash": "157f353aa8cb976461b7c974a2836d1f86b6ed84f2ef159a22548afc953b10b0"
+        },
+        {
+            "date": 1708112236790,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-17-02-01-success.log",
+            "hash": "ba4b382fdd55e04e9c883acb9d2dcd7b6190cee82a62496d8b11c9271f540c09"
+        },
+        {
+            "date": 1708148659913,
+            "name": "C:\\PROGRAMMING HERO\\NEXT-LEVEL\\UNIVERSITY-MANAGEMENT\\auth-service-um\\logs\\winston\\successes\\UM-2024-17-02-11-success.log",
+            "hash": "9f9df3dfc0e19f84bdf37e0b5edcdc9eaf312f8fbf863299aea6d6e1a94b34be"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -14,13 +14,13 @@ const AdminSchema = new Schema<IAdmin, AdminModel>(
           type: String,
           required: true,
         },
-        lastName: {
-          type: String,
-          required: true,
-        },
         middleName: {
           type: String,
           required: false,
+        },
+        lastName: {
+          type: String,
+          required: true,
         },
       },
       required: true,
@@ -52,11 +52,9 @@ const AdminSchema = new Schema<IAdmin, AdminModel>(
     },
     presentAddress: {
       type: String,
-      required: true,
     },
     permanentAddress: {
       type: String,
-      required: true,
     },
     managementDepartment: {
       type: Schema.Types.ObjectId,

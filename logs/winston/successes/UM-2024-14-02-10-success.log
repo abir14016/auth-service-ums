@@ -1,0 +1,3 @@
+Wed Feb 14 2024 10:58:23 [UM] info: ✅ Redis Connected on port redis://localhost:6379
+Wed Feb 14 2024 10:58:25 [UM] info: 🛢   Database is connected successfully
+Wed Feb 14 2024 10:58:25 [UM] info: 🗄️  Server Running on port 3001

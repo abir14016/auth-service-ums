@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
+import httpStatus from 'http-status';
 import config from '../../../config';
+import ApiError from '../../../errors/ApiError';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { ILoginUserResponse, IRefreshTokenResponse } from './auth.interface';
@@ -50,35 +52,37 @@ const changePassword = catchAsync(async (req: Request, res: Response) => {
   const user = req.user;
   const { ...passwordData } = req.body;
 
-  await AuthService.changePassword(user, passwordData);
+  if (!user) {
+    throw new ApiError(httpStatus.UNAUTHORIZED, 'unauthorized');
+  }
+  const result = await AuthService.changePassword(user, passwordData);
 
   sendResponse(res, {
-    statusCode: 200,
+    statusCode: httpStatus.OK,
     success: true,
     message: 'Password changed successfully !',
+    data: result,
   });
 });
 
 const forgotPass = catchAsync(async (req: Request, res: Response) => {
-
   await AuthService.forgotPass(req.body);
 
   sendResponse(res, {
     statusCode: 200,
     success: true,
-    message: "Check your email!",
+    message: 'Check your email!',
   });
 });
 
 const resetPassword = catchAsync(async (req: Request, res: Response) => {
-
-  const token = req.headers.authorization || "";
+  const token = req.headers.authorization || '';
   await AuthService.resetPassword(req.body, token);
 
   sendResponse(res, {
     statusCode: 200,
     success: true,
-    message: "Account recovered!",
+    message: 'Account recovered!',
   });
 });
 
@@ -87,5 +91,5 @@ export const AuthController = {
   refreshToken,
   changePassword,
   forgotPass,
-  resetPassword
+  resetPassword,
 };

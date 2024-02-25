@@ -1,0 +1,12 @@
+Tue Feb 06 2024 17:16:59 [UM] info: ✅ Redis Connected on port redis://localhost:6379
+Tue Feb 06 2024 17:17:7 [UM] info: 🛢   Database is connected successfully
+Tue Feb 06 2024 17:17:7 [UM] info: 🗄️  Server Running on port 3001
+Tue Feb 06 2024 17:37:29 [UM] info: ✅ Redis Connected on port redis://localhost:6379
+Tue Feb 06 2024 17:37:31 [UM] info: 🛢   Database is connected successfully
+Tue Feb 06 2024 17:37:31 [UM] info: 🗄️  Server Running on port 3001
+Tue Feb 06 2024 17:56:22 [UM] info: ✅ Redis Connected on port redis://localhost:6379
+Tue Feb 06 2024 17:56:25 [UM] info: 🛢   Database is connected successfully
+Tue Feb 06 2024 17:56:25 [UM] info: 🗄️  Server Running on port 3001
+Tue Feb 06 2024 17:57:26 [UM] info: ✅ Redis Connected on port redis://localhost:6379
+Tue Feb 06 2024 17:57:29 [UM] info: 🛢   Database is connected successfully
+Tue Feb 06 2024 17:57:29 [UM] info: 🗄️  Server Running on port 3001

@@ -3,14 +3,14 @@ import { IManagementDepartment } from '../managementDepartment/managementDepartm
 
 export type UserName = {
   firstName: string;
-  lastName: string;
   middleName: string;
+  lastName: string;
 };
 
 export type IAdmin = {
   id: string;
   name: UserName;
-  profileImage: string;
+  profileImage?: string;
   dateOfBirth?: string;
   email: string;
   contactNo: string;
